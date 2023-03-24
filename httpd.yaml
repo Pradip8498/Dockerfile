@@ -1,5 +1,5 @@
 ---
-- hosts: devlinux
+- hosts: qalinux
   user: velocity
   become: yes
   connection: ssh
