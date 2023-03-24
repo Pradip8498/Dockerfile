@@ -13,4 +13,4 @@
       action: service name=httpd state=started
       
     - name: copy index
-      action: copy src=/mnt/data/23q1-ansible/index.html dest=/var/www/html/
+      action: copy src=index.html dest=/var/www/html/
